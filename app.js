@@ -60,6 +60,10 @@ app.post('/contactUs', function(req, res) {
     });
 });
 
+app.post('/subscribeToMailer', function(req, res) {
+    console.log(req.body.email);
+});
+
 app.use(function (err, req, res, next) {
   console.error(err.stack)
   res.status(500).send('Something broke!')
