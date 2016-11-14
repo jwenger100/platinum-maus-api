@@ -1,0 +1,25 @@
+{
+  "name": "platinum-maus-api",
+  "version": "1.0.0",
+  "description": "API for Platinum maus web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwenger100/platinum-maus-api.git"
+  },
+  "author": "Jonathan Wenger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwenger100/platinum-maus-api/issues"
+  },
+  "homepage": "https://github.com/jwenger100/platinum-maus-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-mailer": "^0.3.1",
+    "jade": "^1.11.0"
+  }
+}
