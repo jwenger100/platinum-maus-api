@@ -20,6 +20,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-mailer": "^0.3.1",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.25"
   }
 }
